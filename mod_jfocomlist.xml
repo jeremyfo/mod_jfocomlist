@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client="administrator">
+	<name>JFO Component Listing</name>
+	<author>Jeremy Ford</author>
+	<creationDate>4.11.2011</creationDate>
+	<copyright>Copyright (C) 2011 ShoreFast Internet!</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>jeremyfo@gmail.com</authorEmail>
+	<authorUrl>http://www.jfo.me</authorUrl>
+	<version>1.5.1</version>
+	<description>Admin Module to Display Install Components, publish to cpanel</description>
+	<files>
+		<filename>mod_jfocomlist.xml</filename>
+		<filename module="mod_jfocomlist">mod_jfocomlist.php</filename>
+		<filename>tmpl/default.php</filename>
+        	<filename>tmpl/index.html</filename>
+		<filename>tmpl/check.png</filename>
+        	<filename>tmpl/x.png</filename>
+	</files>
+	<params>
+	    <param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+	</params>
+</install>
